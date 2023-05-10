@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3evvam5puu7x"
+path="res://.godot/imported/Music.mp3-8000669254a6b96acbab137c3aa4a8b7.mp3str"
+
+[deps]
+
+source_file="res://Sprites/Action RPG Resources/Music and Sounds/Music.mp3"
+dest_files=["res://.godot/imported/Music.mp3-8000669254a6b96acbab137c3aa4a8b7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -26,6 +26,10 @@ window/size/viewport_height=900
 window/stretch/mode="canvas_items"
 window/stretch/scale=4.0
 
+[dotnet]
+
+project/assembly_name="SpringJam2023"
+
 [input]
 
 ui_right={

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c8ka38qa4wuup"]
+
+[ext_resource type="Texture2D" uid="uid://dojc3eabnbisl" path="res://Sprites/Action RPG Resources/World/Bush.png" id="1_udqlg"]
+[ext_resource type="Script" path="res://_Scripts/Player/Player.gd" id="2_6nu55"]
+[ext_resource type="Texture2D" uid="uid://b08h3wr7v7c32" path="res://Sprites/Action RPG Resources/Player/Player.png" id="2_q8fgm"]
+
+[node name="Level 0" type="Node2D"]
+
+[node name="Bush" type="Sprite2D" parent="."]
+position = Vector2(90, 88)
+texture = ExtResource("1_udqlg")
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("2_6nu55")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_q8fgm")
+hframes = 60
